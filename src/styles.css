@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -11,10 +16,10 @@ body {
 
 .calculator-grid {
     display: grid;
-    margin-top: 2rem;
     justify-content: center;
     grid-template-columns: repeat(4, 6rem);
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+    margin-bottom: 2rem;
 }
 
 .calculator-grid>button {
@@ -44,6 +49,20 @@ body {
     padding: .75rem;
     word-wrap: break-word;
     word-break: break-all;
+}
+
+.title {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    background-image: url(./flame.jpg);
+    background-position: center;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .output .previous-operand {
