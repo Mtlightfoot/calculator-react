@@ -57,7 +57,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 0;
     font-weight: 600;
-    background-image: url(flame.jpg);
+    background-image: url(../public/flame.jpg);
     background-position: center;
     background-size: contain;
     background-clip: text;
